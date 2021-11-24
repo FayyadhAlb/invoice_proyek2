@@ -13,17 +13,24 @@ class ProductTableSeeders extends Seeder
     public function run()
     {
         Product::create([
-            'title' => 'Macbook Pro 13 2017',
-            'description' => 'Seri komputer jinjing Macintosh yang diproduksi oleh Apple',
-            'price' => 18500000,
+            'title' => 'Electrocauterey',
+            'description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum',
+            'price' => 2000000,
             'stock' => 5
         ]);
 
         Product::create([
-            'title' => 'Asus Rog Slim',
-            'description' => 'Sebuah brand perangkat keras notebook khusus gaming dari ASUS',
-            'price' => 10500000,
-            'stock' => 15
+            'title' => 'Glow Neck Peel',
+            'description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum',
+            'price' => 600000,
+            'stock' => 10
+        ]);
+
+        Product::create([
+            'title' => 'Botox injection',
+            'description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum',
+            'price' => 1000000,
+            'stock' => 7
         ]);
     }
 }

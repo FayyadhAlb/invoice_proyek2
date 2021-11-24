@@ -15,7 +15,9 @@
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="text-center">
-                                    <img src="{{ asset('laravel.png') }}" alt="" width="350px" height="150px">
+                                    <h1 class="card-title">BeatyCare</h1>
+                                    <br>
+                                    <img src="{{ asset('laravel.png') }}" alt="" width="150px" height="150px">
                                 </div>
                             </div>
                             <div class="col-md-6">
@@ -45,24 +47,24 @@
                             <div class="col-md-6">
                                 <table>
                                     <tr>
-                                        <td width="30%">Perusahaan</td>
+                                        <td width="30%">Toko</td>
                                         <td>:</td>
-                                        <td>Daengweb</td>
+                                        <td>BeatyCare</td>
                                     </tr>
                                     <tr>
                                         <td>Alamat</td>
                                         <td>:</td>
-                                        <td>Jl Sultan Hasanuddin Makassar</td>
+                                        <td>Malang</td>
                                     </tr>
                                     <tr>
                                         <td>No Telp</td>
                                         <td>:</td>
-                                        <td>085343966997</td>
+                                        <td>087817291781</td>
                                     </tr>
                                     <tr>
                                         <td>Email</td>
                                         <td>:</td>
-                                        <td>support@daengweb.id</td>
+                                        <td>beautycaremlg@gmail.com</td>
                                     </tr>
                                 </table>
                             </div>
@@ -73,8 +75,8 @@
                                     <thead>
                                         <tr>
                                             <td>#</td>
-                                            <td>Produk</td>
-                                            <td>Qty</td>
+                                            <td>Layanan</td>
+                                            <td>Jumlah Layanan</td>
                                             <td>Harga</td>
                                             <td>Subtotal</td>
                                             <th>Action</th>
@@ -105,7 +107,7 @@
                                             <td>
                                                 <input type="hidden" name="_method" value="PUT" class="form-control">
                                                 <select name="product_id" class="form-control">
-                                                    <option value="">Pilih Produk</option>
+                                                    <option value="">Pilih Layanan</option>
                                                     @foreach ($products as $product)
                                                     <option value="{{ $product->id }}">{{ $product->title }}</option>
                                                     @endforeach

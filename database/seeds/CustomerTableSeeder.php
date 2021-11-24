@@ -12,25 +12,19 @@ class CustomerTableSeeder extends Seeder
      */
     public function run()
     {
+        
         Customer::create([
-            'name' => 'Anugrah Sandi',
+            'name' => 'Darman Saputra',
             'address' => 'Bandung',
-            'phone' => '0384394839',
-            'email' => 'anugrah@slymanmedia.com'
+            'phone' => '08951566516',
+            'email' => 'darman1@gmail.com'
         ]);
 
         Customer::create([
-            'name' => 'Anugrah Sandi',
-            'address' => 'Bandung',
-            'phone' => '0384394839',
-            'email' => 'anugrah1@slymanmedia.com'
-        ]);
-
-        Customer::create([
-            'name' => 'Anugrah Sandi',
-            'address' => 'Bandung',
-            'phone' => '0384394839',
-            'email' => 'anugrah2@slymanmedia.com'
+            'name' => 'Fayyadh Al',
+            'address' => 'Malang',
+            'phone' => '087859762267',
+            'email' => 'fayyadh12@gmail.com'
         ]);
     }
 }

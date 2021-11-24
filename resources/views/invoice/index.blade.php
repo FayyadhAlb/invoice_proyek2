@@ -8,7 +8,7 @@
                     <div class="card-header">
                         <div class="row">
                             <div class="col-md-6">
-                                <h3 class="card-title">Manajemen Invoice</h3>
+                                <h3 class="card-title">Manajemen Data Reservasi</h3>
                             </div>
                         </div>
                     </div>
@@ -21,10 +21,10 @@
                         <table class="table table-hover table-bordered">
                             <thead>
                                 <tr>
-                                    <th>Invoice ID</th>
+                                    <th>Antrian</th>
                                     <th>Nama Lengkap</th>
                                     <th>No Telp</th>
-                                    <th>Total Item</th>
+                                    <th>Jumlah Layanan</th>
                                     <th>Subtotal</th>
                                     <th>Pajak</th>
                                     <th>Total</th>

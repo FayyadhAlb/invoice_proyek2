@@ -38,31 +38,50 @@
             width:185px;
         }
         th{
-            background-color: #f0f0f0;
+            background-color: #FF008080;
         }
         h4, p{
             margin:0px;
         }
+        .img{
+	        width:100px;
+	        margin:10px;
+        }
+        header {
+                position: fixed;
+                top: 0cm;
+                left: 0cm;
+                right: 0cm;
+                height: 3cm;
+            }
+        center { 
+            text-align: justify;
+        }
+        .p {text-align: center;}
+        
     </style>
 </head>
 <body>
     <div class="container">
+        <header>
+            <img class="img"src="laravel.png"/>
+        </header>
         <table>
             <caption>
-                Daengweb Invoice App
-            </caption>
+                <h4>NOTA BEUTYCARE</h4>
+            </caption>        
             <thead>
                 <tr>
-                    <th colspan="3">Invoice <strong>#{{ $invoice->id }}</strong></th>
+                    <th colspan="3">NOTA <strong>#{{ $invoice->id }}</strong></th>
                     <th>{{ $invoice->created_at->format('D, d M Y') }}</th>
                 </tr>
                 <tr>
                     <td colspan="2">
-                        <h4>Perusahaan: </h4>
-                        <p>Daengweb.<br>
-                            Jl Sultan Hasanuddin Makassar<br>
-                            085343966997<br>
-                            support@daengweb.id
+                        <h4>Toko: </h4>
+                        <p>BeatyCare.<br>
+                            Jl. Borobudur 10 Malang<br>
+                            089671290718<br>
+                            beautycaremlg@gmail.com
                         </p>
                     </td>
                     <td colspan="2">
@@ -79,7 +98,7 @@
                 <tr>
                     <th>Produk</th>
                     <th>Harga</th>
-                    <th>Qty</th>
+                    <th>Jumlah Layanan</th>
                     <th>Subtotal</th>
                 </tr>
                 @foreach ($invoice->detail as $row)
@@ -108,6 +127,9 @@
                 </tr>
             </tfoot>
         </table>
+        <footer>
+            <p class="p">&copy;  BeautyCare 2021</p>
+        </footer>
     </div>
 </body>
 </html>
